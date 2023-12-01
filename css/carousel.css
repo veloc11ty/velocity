@@ -1,0 +1,29 @@
+.logo-slider {
+  position: relative;
+  height: 15vh;
+  overflow: hidden;
+}
+
+.logo-set {
+  display: flex;
+  position: absolute;
+  width: 100%;
+}
+
+.logo-set img {
+  flex: 0 0 auto;
+  margin-right: 5vw;
+  height: 15vh;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .logo-slider {
+    height: 10vh; /* Adjust as needed */
+  }
+
+  .logo-set img {
+    margin-right: 2.5vw; /* Adjust as needed */
+    height: 10vh; /* Adjust as needed */
+  }
+}

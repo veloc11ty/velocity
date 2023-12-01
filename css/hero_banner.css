@@ -1,0 +1,48 @@
+.hero_caption_img {
+  background-image: url(images/hero_banner.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero_caption {
+  width: 60%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border: 6px solid #90a9c3;
+  border-radius: 5px;
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  padding: 40px;
+  color: #fff;
+}
+.hero_caption span.border {
+  width: 100%;
+  font-family: DINBold;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 400;
+  line-height: 88px;
+  font-size: 52px;
+  color: #000;
+}
+.hero_caption span {
+  font-size: 46px;
+  color: #000;
+  font-family: DINLight;
+  text-transform: capitalize;
+}
+.hero_caption p {
+  width: 100%;
+  font-family: DINLight;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  text-shadow: none;
+}

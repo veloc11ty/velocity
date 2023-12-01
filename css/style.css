@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.one {
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.55)),
+    url(images/netflix-poster.jpg);
+  height: 820px;
+  border-bottom: 10px solid #222;
+}
+.header {
+  height: 84px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-left {
+  display: inline-block;
+  width: 134px;
+  height: 36px;
+  margin-left: 56px;
+}
+.header-right {
+  display: inline-block;
+  margin-right: 56px;
+}
+.net-logo {
+  width: 100%;
+}
+.sign-in {
+  font-family: Arial, sans-serif;
+  background-color: #e50914;
+  border: none;
+  padding: 10px 17px;
+  color: white;
+  border-radius: 3px;
+  font-size: 16px;
+}
+.body,
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  margin-top: 11%;
+}
+.body p {
+  color: white;
+  max-width: 650px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.p1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+.p2 {
+  font-size: 30px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 123px;
+  margin-right: 123px;
+}
+.p3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 123px;
+  margin-right: 123px;
+}
+.e-mail-bar {
+  width: 500px;
+  height: 72px;
+  margin-right: 0;
+}
+.e-mail-bar::placeholder {
+  font-size: 18px;
+  padding-left: 10px;
+}
+.get-start-btn {
+  background-color: #e50914;
+  font-size: 40px;
+  padding: 15px 26px;
+  vertical-align: top;
+  border: none;
+  color: white;
+  margin-left: 0;
+  cursor: pointer;
+}
+.two {
+  position: relative;
+  background-color: black;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 10px solid #222;
+}
+.text-tv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.p4 {
+  display: inline-block;
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 14px;
+  width: 520px;
+}
+.p5 {
+  display: inline-block;
+  color: white;
+  font-size: 26px;
+  font-weight: 400;
+  width: 520px;
+}
+
+.img-tv-frame {
+  position: absolute;
+  height: 400px;
+  right: 11.88%;
+  top: 5%;
+  z-index: 3;
+}
+.video-tv {
+  position: absolute;
+  height: 230px;
+  right: 15.2%;
+  top: 20%;
+}
+.tv,
+.tv-vid {
+  height: 100%;
+}
+.three {
+  background-color: black;
+  height: 450px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 100px;
+  border-bottom: 10px solid #222;
+}
+.p6 {
+  color: white;
+  font-size: 54px;
+  font-weight: bold;
+  margin-bottom: 14px;
+  width: 600px;
+}
+.p7 {
+  color: white;
+  font-size: 26px;
+  font-weight: 400;
+  width: 600px;
+}
+.mob {
+  height: 400px;
+}
+.four {
+  position: relative;
+  background-color: black;
+  height: 550px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 100px;
+  border-bottom: 10px solid #222;
+}
+.device-text {
+  position: absolute;
+  left: 11.88%;
+  top: 40%;
+  z-index: 3;
+}
+.p8 {
+  color: white;
+  font-size: 55px;
+  font-weight: bold;
+  margin-bottom: 14px;
+  width: 550px;
+}
+.p9 {
+  color: white;
+  font-size: 26px;
+  font-weight: 400;
+  width: 550px;
+}
+.device-img {
+  position: absolute;
+  height: 500px;
+  right: 11.88%;
+  top: 15%;
+  z-index: 3;
+}
+.device-video {
+  position: absolute;
+  height: 200px;
+  right: 19%;
+  top: 20%;
+}
+.device {
+  width: 600px;
+}
+.device-vid {
+  width: 380px;
+}
+.five {
+  background-color: black;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 100px;
+  border-bottom: 10px solid #222;
+}
+.p10 {
+  color: white;
+  font-size: 54px;
+  font-weight: bold;
+  margin-bottom: 14px;
+  width: 600px;
+}
+.p11 {
+  color: white;
+  font-size: 26px;
+  font-weight: 400;
+  width: 600px;
+}
+.childre {
+  width: 421px;
+}
